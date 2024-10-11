@@ -1,16 +1,11 @@
-# Python Poetry Boiler Plate
+# Python Boiler Plate
 
-## Todo
+**Minimal Python Poetry boiler plate**
 
-- use a venv
-- use ruff linter
-- pytest test
-- able to import modules, own and external
-
-Create a new Python Poetry project:
+Install dependencies:
 
 ```shell
-poetry new poetry-demo
+poetry install
 ```
 
 Activate the virtual environment:
@@ -19,8 +14,14 @@ Activate the virtual environment:
 poetry shell
 ```
 
-Run your script:
+Run the tests:
 
 ```shell
-poetry run
+pytest
+```
+
+Run the linter
+
+```shell
+ruff check
 ```
